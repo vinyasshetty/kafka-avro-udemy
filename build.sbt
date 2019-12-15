@@ -6,6 +6,12 @@ version := "0.1"
 
 scalaVersion := "2.12.10"
 
-libraryDependencies ++= Seq("org.apache.avro" % "src/main/avro" % "1.9.1")
+resolvers += "confluent" at "https://packages.confluent.io/maven/"
 
-AvroConfig / stringType := "String"
+libraryDependencies ++= Seq(
+  "io.confluent" % "kafka-avro-serializer" % "5.3.0",
+  "org.apache.kafka" % "kafka-clients" % "2.4.0",
+  "org.apache.avro" % "avro" % "1.8.1"
+)
+
+//AvroConfig / stringType := "String"
