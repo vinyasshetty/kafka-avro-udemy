@@ -12,6 +12,8 @@ java -jar avro-tools-1.9.1.jar getschema customer-specific.avro
 
 
 Docker:
-In the directory of the yml file , say :
-docker-compose up
+In the directory of the yml file , say :   
+
+docker-compose up    
+
 docker run -it --rm --net=host confluentinc/cp-schema-registry:5.3.1 bash
