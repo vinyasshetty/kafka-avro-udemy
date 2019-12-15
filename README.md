@@ -6,7 +6,7 @@ There is a possibility , that you might see a error saying "class Customer alrea
 then Sources and make sure you do not have multiple locations for "compiled_avro" locations.
 
 To get Avro Jar :  
-curl -H "Accept: application/zip"  http://central.maven.org/maven2/org/apache/avro/avro-tools/1.8.1/avro-tools-1.1.1.jar -o vro-tools-1.8.1.jar   
+curl -H "Accept: application/zip"  http://central.maven.org/maven2/org/apache/avro/avro-tools/1.8.1/avro-tools-1.1.1.jar -o avro-tools-1.8.1.jar   
 java -jar avro-tools-1.8.1.jar tojson --pretty customer-generic.avro   
 java -jar avro-tools-1.8.1.jar getschema customer-specific.avro
 
