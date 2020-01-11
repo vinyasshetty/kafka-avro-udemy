@@ -1,4 +1,4 @@
-package com.github.vinyasshetty.avro.evolution
+package com.github.avro.evolution
 
 import java.io.{File, IOException}
 

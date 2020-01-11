@@ -1,6 +1,8 @@
+
+
 name := "kafka-avro-udemy"
 
-organization := "com.github.vinyasshetty"
+organization := "vinyasshetty"
 
 version := "0.1"
 
@@ -13,5 +15,7 @@ libraryDependencies ++= Seq(
   "org.apache.kafka" % "kafka-clients" % "2.4.0",
   "org.apache.avro" % "avro" % "1.8.1"
 )
+
+
 
 //AvroConfig / stringType := "String"

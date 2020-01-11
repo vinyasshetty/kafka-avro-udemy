@@ -2,6 +2,7 @@
   "type": "record",
   "namespace": "com.example",
   "name": "Customer",
+  "version": "1",
   "doc": "Avro Schema for our Customer",
   "fields": [
     { "name": "first_name", "type": "string", "doc": "First Name of Customer" },

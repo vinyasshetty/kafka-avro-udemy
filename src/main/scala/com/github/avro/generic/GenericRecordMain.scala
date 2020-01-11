@@ -1,4 +1,4 @@
-package com.github.vinyasshetty.avro.generic
+package com.github.avro.generic
 
 import org.apache.avro.Schema
 import org.apache.avro.generic.GenericData.Record
